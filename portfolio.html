@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinton | Professional Web Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      width: 100%;
+      background: linear-gradient(145deg, #020617, #020617);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 3rem;
+    }
+
+    .left {
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #38bdf8;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      color: #f8fafc;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      color: #38bdf8;
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+    }
+
+    .right p {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+      color: #cbd5f5;
+    }
+
+    .skills-title {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #f8fafc;
+      font-weight: 600;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .skill {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 0.8rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .skill:hover {
+      transform: translateY(-4px);
+      border-color: #38bdf8;
+    }
+
+    .cta {
+      margin-top: 2.5rem;
+    }
+
+    .cta a {
+      text-decoration: none;
+      background: #38bdf8;
+      color: #020617;
+      padding: 0.9rem 2rem;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .cta a:hover {
+      background: #0ea5e9;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <img src="IMG-20250131-WA0017.jpg" alt="Clinton profile photo" class="profile-img" />
+      <h1>Clinton</h1>
+      <div class="title">Professional Web Developer</div>
+    </div>
+
+    <div class="right">
+      <p>
+        I am a professional web developer specializing in building visually appealing,
+        high-performance, and user-focused websites. I combine clean code practices with
+        modern design principles to deliver digital experiences that are fast, responsive,
+        and scalable.
+      </p>
+
+      <p>
+        My approach emphasizes clarity, accessibility, and maintainability—ensuring that
+        every project not only looks great but also performs reliably across all devices
+        and browsers.
+      </p>
+
+      <div class="skills-title">Core Skills & Expertise</div>
+      <div class="skills">
+        <div class="skill">HTML5 & Semantic Structure</div>
+        <div class="skill">CSS3 & Advanced Styling</div>
+        <div class="skill">Responsive Web Design</div>
+        <div class="skill">Flexbox & CSS Grid</div>
+        <div class="skill">UI/UX Best Practices</div>
+        <div class="skill">Performance Optimization</div>
+        <div class="skill">Cross-Browser Compatibility</div>
+        <div class="skill">Basic JavaScript Integration</div>
+        <div class="skill">Clean & Maintainable Code</div>
+      </div>
+
+      <div class="cta">
+        <a href="https://x.com/clintn_xx" target="_blank">Connect With Me</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
