@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* BODY BACKGROUND */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b, #fde047);
+    color: #4a2c00;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+/* LOGO */
+header img {
+    width: 70px;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a2c00;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* AUTH BUTTONS */
+header div:last-child button {
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+header div:last-child button:first-child {
+    background: #4a2c00;
+    color: #fff;
+    margin-right: 12px;
+}
+
+header div:last-child button:last-child {
+    background: transparent;
+    border: 2px solid #4a2c00;
+    color: #4a2c00;
+}
+
+/* HERO SECTION */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 25px 80px;
+}
+
+/* HERO TITLE */
+section h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+section h1 b {
+    display: block;
+}
+
+/* HERO TEXT */
+section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #5c3a00;
+    margin-bottom: 35px;
+}
+
+/* HERO BUTTONS */
+section div:last-child button {
+    padding: 14px 26px;
+    border-radius: 30px;
+    font-s
+}
