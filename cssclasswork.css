@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(BG\ donut.png) ;
+    }
+
+header ul{
+    display: flex;
+   
+    list-style: none;
+  
+   
+}
+header ul li{
+    margin-right: 50px;
+    
+}
+
+header{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 250px;
+}
+
+
+header a{
+    text-decoration:none;
+    color: black;
+}
+.active{
+
+}
+button{
+    padding: 10px 15px;
+    
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 32px;
+    cursor: pointer; 
+    font-weight: 400;
+}
+#active{
+    background:yellow;
+    border: 1px solid black;
+    color: black;
+}
+ section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 44px;
+    
+    
+}
+section p{
+    margin: 24px 0;
+    
+}

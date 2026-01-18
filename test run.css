@@ -1,0 +1,7 @@
+.goo-wrapper{
+    background: comic-gradient;
+    animation: rotate;
+}
+.glow-bar:hover{
+    width: 85%;
+}
