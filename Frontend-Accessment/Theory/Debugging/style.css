@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20;
+}
+
+.card {
+    width: 200;
+    padding: 15px;
+    border: 2 solid black;
+}
+
+h3 {
+    color: blue;
+}

@@ -1,0 +1,20 @@
+1.CSS box model describes how every HTML element is structured and how space around it is calculated.
+it four parts are padding,margin,border and content
+2. Margin is the space around the box model which is top,bottom,right and left while Padding is the aspect that contains the space inside the border
+3.Semantic HTML is important because Semantic HTML uses meaningful tags like <header>, <article>, <nav>, <footer>.
+Two benefits:
+1.Better accessibility for screen readers
+2.Improved SEO
+
+4.Flexbox is one dimensional	while CSS Grid is two dimensional
+
+When to use:
+1.Use Flexbox for navigation bars, buttons, aligning items.
+2.use Grid for page layouts, dashboards, full sections.
+5.Turns the element into a flex container and items align in a row by default.
+6.he alt attribute provides text description for images.
+Who benefits:
+1.Visually impaired users using screen readers
+2.Users with slow internet when images fail to load
+7.When two CSS rules target the same element,CSS uses specificity to decide which rule applies.
+I.CSS specificity is the rule that makes the rule with higher specificity win.
